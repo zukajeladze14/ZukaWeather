@@ -1,14 +1,5 @@
-import {
-  ImageBackground,
-  StyleSheet,
-  Text,
-  Image,
-  TouchableOpacity,
-  SafeAreaView,
-} from "react-native";
-import { View } from "react-native";
+import { StyleSheet, Text, Image, TouchableOpacity } from "react-native";
 import Current from "../api/current";
-import { useState } from "react";
 import { StatusBar } from "expo-status-bar";
 import Container from "../components/Container";
 import icons from "../components/Icons";

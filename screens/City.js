@@ -5,7 +5,6 @@ import {
   Pressable,
   FlatList,
   StatusBar,
-  View,
 } from "react-native";
 import Container from "../components/Container";
 import back from "../assets/rightArrow.png";
@@ -26,7 +25,6 @@ const City = ({ navigation, route }) => {
       {weather && (
         <FlatList
           data={weather.daily}
-          //   style={{ height: "100%" }}
           renderItem={({ item }) => {
             return <ListItem weather={item}></ListItem>;
           }}
